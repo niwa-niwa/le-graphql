@@ -5,6 +5,7 @@ generates:
     config:
       useIndexSignature: true
       contextType: ../context
+      enumsAsTypes: true
     plugins:
       - typescript
       - typescript-resolvers
